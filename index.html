@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zijia Yu | Neuroscience / Photography</title>
+    <meta
+      name="description"
+      content="Zijia Yu's portfolio for neuroscience research, visual analysis, photography, and field notes."
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="monogram" href="#top" aria-label="Go to home">
+        <span>Y</span>
+        <span>Z</span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#work">Research Atlas</a>
+        <a href="#photography">Photography</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="resume-link" href="#contact">CV on Request</a>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-index" aria-hidden="true">
+          <span>Research Atlas</span>
+          <strong>01</strong>
+        </div>
+
+        <section class="hero-intro">
+          <p class="kicker">Neuroscience / Photography</p>
+          <h1 id="hero-title">Zijia Yu</h1>
+          <p class="lede">
+            I study cortical dynamics, sensory processing, and brain network connectivity
+            through neuroimaging, behavior, and visual analysis.
+          </p>
+          <dl class="metadata">
+            <div>
+              <dt>Approach</dt>
+              <dd>Systems neuroscience, psychiatry, translational models</dd>
+            </div>
+            <div>
+              <dt>Methods</dt>
+              <dd>Optical in vivo imaging, molecular psychiatry, sensory processing, behavior</dd>
+            </div>
+            <div>
+              <dt>Interests</dt>
+              <dd>ASD models, cortical excitability, global signal dynamics, psychedelics</dd>
+            </div>
+          </dl>
+          <button class="text-action" type="button" data-scroll="#work">View Research Atlas</button>
+        </section>
+
+        <section class="research-plate" aria-label="Research figure carousel">
+          <div class="plate-header">
+            <span>Research Figures</span>
+            <strong>Four selected figures</strong>
+          </div>
+          <div class="figure-grid" aria-label="Selected research figures">
+            <article class="figure-card setup-card">
+              <button class="figure-image-button" type="button" data-lightbox="0">
+                <img src="./public/assets/figure-imaging-setup.png" alt="Mesoscale calcium imaging setup schematic" />
+              </button>
+              <span>01</span>
+              <h2>Imaging Setup</h2>
+              <p>Mesoscale calcium imaging workflow for optical in vivo measurement of dorsal cortical activity.</p>
+            </article>
+            <article class="figure-card wide-card">
+              <button class="figure-image-button" type="button" data-lightbox="1">
+                <img src="./public/assets/figure-dynamic-spontaneous.png" alt="Baseline spontaneous dynamic activity in Shank3B mice" />
+              </button>
+              <span>02</span>
+              <h2>Dynamic Spontaneous Activity</h2>
+              <p>Baseline spontaneous cortical activity, RMS maps, and per-ROI quantification in Shank3B mice.</p>
+            </article>
+            <article class="figure-card wide-card">
+              <button class="figure-image-button" type="button" data-lightbox="2">
+                <img src="./public/assets/figure-functional-connectivity.png" alt="Functional connectivity changes in Shank3B mice" />
+              </button>
+              <span>03</span>
+              <h2>Functional Connectivity</h2>
+              <p>NBS subnetwork, FC matrices, and FDR-significant region-pair changes.</p>
+            </article>
+            <article class="figure-card wide-card">
+              <button class="figure-image-button" type="button" data-lightbox="3">
+                <img src="./public/assets/figure-sensory-evoked.png" alt="Sensory-evoked hyperactivity in Shank3B mice" />
+              </button>
+              <span>04</span>
+              <h2>Sensory-Evoked Activity</h2>
+              <p>Visual and whisker stimulation responses showing sensory-evoked hyperactivity in Shank3B mice.</p>
+            </article>
+          </div>
+        </section>
+
+        <aside class="hero-aside" aria-label="Research snapshot">
+          <section>
+            <h2>Research Snapshot</h2>
+            <p>
+              PhD Candidate in Psychiatry at the Neuroscience and Mental Health Institute,
+              University of Alberta.
+            </p>
+          </section>
+          <section>
+            <h2>Current Focus</h2>
+            <ul class="method-list">
+              <li>Shank3B mouse model of autism spectrum disorder</li>
+              <li>Cortical hyperexcitability and sensory processing</li>
+              <li>Global signal dynamics and functional connectivity</li>
+              <li>Behavioral rescue and translational interpretation</li>
+            </ul>
+          </section>
+          <section>
+            <h2>Core Methods</h2>
+            <ul class="method-list compact">
+              <li>Optical in vivo imaging</li>
+              <li>Molecular psychiatry</li>
+              <li>Synaptic plasticity</li>
+              <li>Social and repetitive behaviour</li>
+              <li>Sensory processing</li>
+              <li>MATLAB / Python</li>
+            </ul>
+          </section>
+          <ol class="artifact-key">
+            <li>FENS Forum 2026</li>
+            <li>CAN-ACN 2025</li>
+            <li>SFN 2023</li>
+            <li>CAN-ACN 2022</li>
+          </ol>
+        </aside>
+      </section>
+
+      <section class="work-section" id="work" aria-labelledby="work-title">
+        <aside class="section-copy">
+          <p class="section-number">02</p>
+          <h2 id="work-title">Research Atlas</h2>
+          <p>Published work, accepted abstracts, conference presentations, and selected research figures.</p>
+          <button class="text-action ink" type="button" data-scroll="#photography">Photography</button>
+        </aside>
+
+        <div class="work-browser">
+          <div class="browser-toolbar">
+            <div class="tabs" role="tablist" aria-label="Filter work">
+              <button class="tab is-active" type="button" data-filter="all">All</button>
+              <button class="tab" type="button" data-filter="publication">Publications</button>
+              <button class="tab" type="button" data-filter="conference">Conferences</button>
+            </div>
+            <div class="toolbar-actions">
+              <button class="control-button" type="button" data-toggle-panel>Filters</button>
+              <button class="control-button" type="button" data-view-toggle>View List</button>
+            </div>
+          </div>
+
+          <div class="filter-panel" data-filter-panel hidden>
+            <label>
+              Focus
+              <select data-place-filter>
+                <option value="all">All places</option>
+                <option value="asd">ASD Models</option>
+                <option value="connectivity">Connectivity</option>
+                <option value="review">Reviews</option>
+                <option value="behavior">Behavior</option>
+              </select>
+            </label>
+            <label>
+              Year
+              <select data-year-filter>
+                <option value="all">All years</option>
+                <option value="2026">2026</option>
+                <option value="2025">2025</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="project-list" data-project-list aria-live="polite"></div>
+        </div>
+
+        <aside class="atlas-index" aria-label="Project index">
+          <h3>Years</h3>
+          <div class="year-stack" data-year-stack>
+            <button type="button" data-year-jump="2026">2026</button>
+            <button type="button" data-year-jump="2025">2025</button>
+            <button type="button" data-year-jump="2024">2024</button>
+            <button type="button" data-year-jump="2023">2023</button>
+            <button type="button" data-year-jump="all">All</button>
+          </div>
+          <h3>Focus</h3>
+          <div class="place-bars">
+            <button type="button" data-place-jump="asd"><span>ASD</span><i style="--w: 86%"></i></button>
+            <button type="button" data-place-jump="connectivity"><span>Connectivity</span><i style="--w: 78%"></i></button>
+            <button type="button" data-place-jump="review"><span>Reviews</span><i style="--w: 54%"></i></button>
+            <button type="button" data-place-jump="behavior"><span>Behavior</span><i style="--w: 62%"></i></button>
+          </div>
+        </aside>
+      </section>
+
+      <section class="photography-section" id="photography" aria-labelledby="photography-title">
+        <p class="section-number">03</p>
+        <div class="photography-copy">
+          <p class="kicker">Photography</p>
+          <h2 id="photography-title">Small records of light, gesture, and distance.</h2>
+          <p>
+            Away from the lab, I photograph quiet intervals: a face turning toward a window,
+            a body moving through ordinary rooms, a landscape holding its breath.
+          </p>
+        </div>
+        <article class="photo-competition" aria-labelledby="competition-title">
+          <div class="competition-copy">
+            <p class="kicker">Competition</p>
+            <h3 id="competition-title">Photography Competition Presentation</h3>
+            <p>
+              A small public-facing selection of photographs, gathered as a visual sequence:
+              people, places, weather, and the soft evidence of being somewhere.
+            </p>
+            <a href="https://www.canva.com/design/DAHEyZhInHg/Py9oBR3W1SMvd1MBO0r2aw/view#13" target="_blank" rel="noreferrer">Open Canva</a>
+          </div>
+          <div class="canva-frame">
+            <iframe
+              src="https://www.canva.com/design/DAHEyZhInHg/Py9oBR3W1SMvd1MBO0r2aw/view?embed#13"
+              title="Photography competition Canva presentation"
+              loading="lazy"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </article>
+        <div class="photo-gallery" aria-label="Photography gallery">
+          <section class="photo-story" aria-labelledby="portrait-title">
+            <div class="photo-group-head">
+              <h3 id="portrait-title">Portraits</h3>
+              <span>held still</span>
+            </div>
+            <p>Portraits are pauses: the small moment before someone becomes aware of being seen.</p>
+            <div class="photo-composition">
+              <button type="button" class="photo-lead" data-lightbox="4"><img src="./public/assets/photography/people-01.jpg" alt="Black-and-white portrait photograph" /></button>
+              <div class="photo-rail" aria-label="More portrait photographs">
+                <button type="button" class="photo-card" data-lightbox="6"><img src="./public/assets/photography/people-03.jpg" alt="Seated portrait photograph" /></button>
+              </div>
+            </div>
+          </section>
+
+          <section class="photo-story" aria-labelledby="life-title">
+            <div class="photo-group-head">
+              <h3 id="life-title">Life</h3>
+              <span>in motion</span>
+            </div>
+            <p>Life photographs keep the unfinished parts: laughter, rooms, hands, meals, the blur of being there.</p>
+            <div class="photo-composition">
+              <button type="button" class="photo-lead landscape" data-lightbox="7"><img src="./public/assets/photography/people-04.jpg" alt="Lifestyle portrait photograph" /></button>
+              <div class="photo-rail" aria-label="More life photographs">
+                <button type="button" class="photo-card" data-lightbox="5"><img src="./public/assets/photography/people-02.jpg" alt="Lifestyle portrait contact sheet" /></button>
+                <button type="button" class="photo-card" data-lightbox="8"><img src="./public/assets/photography/people-05.jpg" alt="Lifestyle photograph with cup" /></button>
+                <button type="button" class="photo-card" data-lightbox="9"><img src="./public/assets/photography/people-06.jpg" alt="Lifestyle photo sequence" /></button>
+                <button type="button" class="photo-card" data-lightbox="10"><img src="./public/assets/photography/people-07.jpg" alt="Lifestyle photo sequence 2" /></button>
+              </div>
+            </div>
+          </section>
+
+          <section class="photo-story" aria-labelledby="places-title">
+            <div class="photo-group-head">
+              <h3 id="places-title">Places</h3>
+              <span>quiet distances</span>
+            </div>
+            <p>Places are less about arrival than atmosphere: snow, moonlight, bridges, benches, and air.</p>
+            <div class="photo-composition">
+              <button type="button" class="photo-lead landscape" data-lightbox="13"><img src="./public/assets/photography/places-03.jpg" alt="Snow landscape photograph" /></button>
+              <div class="photo-rail" aria-label="More place photographs">
+                <button type="button" class="photo-card" data-lightbox="14"><img src="./public/assets/photography/places-04.jpg" alt="Bridge night photograph" /></button>
+                <button type="button" class="photo-card" data-lightbox="16"><img src="./public/assets/photography/places-06.jpg" alt="Bench and tree photograph" /></button>
+                <button type="button" class="photo-card" data-lightbox="12"><img src="./public/assets/photography/places-02.jpg" alt="Moon photograph" /></button>
+                <button type="button" class="photo-card" data-lightbox="15"><img src="./public/assets/photography/places-05.jpg" alt="Hillside scene photograph" /></button>
+                <button type="button" class="photo-card" data-lightbox="11"><img src="./public/assets/photography/places-01.jpg" alt="Tree and wall photograph" /></button>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <section class="about-section" id="about" aria-labelledby="about-title">
+        <p class="section-number">04</p>
+        <h2 id="about-title">About</h2>
+        <p>
+          Zijia Yu is a PhD candidate in Psychiatry at the Neuroscience and Mental Health
+          Institute, University of Alberta. Her research uses optical in vivo imaging,
+          behavioral assays, and custom MATLAB/Python pipelines to study cortical
+          hyperexcitability, sensory processing, synaptic plasticity, social and repetitive
+          behaviour, and translational models of neurodevelopmental and psychiatric conditions.
+        </p>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="kicker">Contact</p>
+          <h2 id="contact-title">For research collaborations, postdoctoral opportunities, and photography conversations.</h2>
+          <p class="profile-link"><a href="https://www.linkedin.com/in/zijia-yu-303046210/">LinkedIn Profile</a></p>
+        </div>
+        <form class="contact-form">
+          <label>
+            Name
+            <input type="text" name="name" autocomplete="name" />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" autocomplete="email" />
+          </label>
+          <label>
+            Note
+            <textarea name="note" rows="4"></textarea>
+          </label>
+          <p class="contact-emails">
+            Research: <a href="mailto:zijia4@ualberta.ca">zijia4@ualberta.ca</a><br />
+            Personal: <a href="mailto:yuzijia1995@gmail.com">yuzijia1995@gmail.com</a>
+          </p>
+          <button class="submit-button" type="submit">Prepare Email</button>
+        </form>
+      </section>
+    </main>
+
+    <aside class="drawer" data-drawer aria-hidden="true" aria-labelledby="drawer-title">
+      <div class="drawer-panel" role="dialog" aria-modal="true">
+        <button class="close-button" type="button" data-close-drawer>Close</button>
+        <div data-drawer-content></div>
+      </div>
+    </aside>
+
+    <aside class="lightbox" data-lightbox-panel aria-hidden="true">
+      <button class="close-button lightbox-close" type="button" data-close-lightbox>Close</button>
+      <button class="lightbox-nav prev" type="button" data-lightbox-prev>Previous</button>
+      <figure>
+        <img data-lightbox-image alt="" />
+        <figcaption data-lightbox-caption></figcaption>
+      </figure>
+      <button class="lightbox-nav next" type="button" data-lightbox-next>Next</button>
+    </aside>
+
+    <script src="./src/app.js"></script>
+  </body>
+</html>
